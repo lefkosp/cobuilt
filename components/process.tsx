@@ -5,27 +5,31 @@ import { useEffect, useRef, useState } from "react"
 const steps = [
   {
     number: "01",
-    title: "Discover",
-    description: "We map your vision, audience, and market position to create a strategic foundation.",
-    benefit: "You get: Clear roadmap and validated strategy before we write a single line of code",
+    title: "Discover & Define",
+    description:
+      "We immerse ourselves in your world: goals, customers, challenges, and untapped potential. This stage shapes every decision that follows.",
+    benefit: "You get: Deep understanding of your market and a validated strategic foundation",
   },
   {
     number: "02",
-    title: "Design",
-    description: "Blueprint your brand identity, user experience, and technical architecture.",
-    benefit: "You get: Designs that convert and technical plans that scale",
+    title: "Design & Structure",
+    description:
+      "We turn clarity into a plan. Through visual direction, content strategy, and systems thinking, we lay the foundation for consistent growth.",
+    benefit: "You get: Clear roadmap with visual direction and structured systems ready to execute",
   },
   {
     number: "03",
-    title: "Build",
-    description: "Execute with precision — from code to content, every detail is crafted.",
-    benefit: "You get: Weekly updates, direct access to builders, and quality you can see",
+    title: "Build & Execute",
+    description:
+      "We build the assets, campaigns, and systems that bring your strategy to life—efficiently, collaboratively, and without friction.",
+    benefit: "You get: High-quality execution with full transparency and direct access to your team",
   },
   {
     number: "04",
-    title: "Grow",
-    description: "Launch, measure, iterate. We stay with you through scale and optimization.",
-    benefit: "You get: Ongoing support and strategic guidance as you scale",
+    title: "Grow & Refine",
+    description:
+      "Once live, we track, test, and optimise. Every win becomes a new blueprint for scaling your next stage of growth.",
+    benefit: "You get: Continuous optimization and strategic guidance as you scale to new heights",
   },
 ]
 
@@ -72,11 +76,14 @@ export function Process() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20 space-y-4">
             <div className="inline-block px-3 py-1 border border-primary/30 bg-muted/50 rounded-sm">
-              <span className="text-xs font-medium text-primary tracking-wider">OUR PROCESS</span>
+              <span className="text-xs font-medium text-primary tracking-wider">PROCESS</span>
             </div>
-            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight">From Blueprint to Build</h2>
+            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight">
+              From Blueprint to <span className="gradient-text">Build Together</span>
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              A proven process that turns vision into reality — with full transparency at every step
+              Our process isn't linear—it's collaborative, transparent, and built to grow alongside you. Every stage
+              compounds into the next, turning strategy into momentum and momentum into measurable growth.
             </p>
           </div>
 

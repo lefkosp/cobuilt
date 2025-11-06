@@ -69,7 +69,8 @@ export function Testimonials() {
               Built With <span className="gradient-text">Real Founders</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              {"Don't"} take our word for it — hear from the founders {"we've"} partnered with
+              {"Don't"} just take our word for it. These are the founders who trusted us to help build what mattered
+              most.
             </p>
           </div>
 

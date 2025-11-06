@@ -39,41 +39,62 @@ export function About() {
           <div className="grid lg:grid-cols-5 gap-16 items-start">
             <div className={`lg:col-span-2 space-y-6 ${isVisible ? "animate-slide-in-left" : "opacity-0"}`}>
               <div className="inline-block px-3 py-1 border border-primary/30 bg-muted/50 rounded-sm">
-                <span className="text-xs font-medium text-primary tracking-wider">ABOUT US</span>
+                <span className="text-xs font-medium text-primary tracking-wider">ABOUT</span>
               </div>
               <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.1]">
-                Built on Craft, Not Capital
+                Built on Craft, <span className="gradient-text">Backed by Purpose</span>
               </h2>
             </div>
 
             <div className={`lg:col-span-3 space-y-8 ${isVisible ? "animate-slide-in-right delay-100" : "opacity-0"}`}>
               <div className="space-y-6">
                 <p className="text-xl leading-relaxed text-foreground font-serif">
-                  We're a small team that works closely with founders who care deeply about their product. Every project
-                  gets our full attention, every detail matters, and every partnership is built to last.
+                  We're a boutique team that partners with founders who care deeply about what they build. Every detail
+                  matters, every project gets full focus, and every outcome reflects shared pride—not just deliverables.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  CoBuilt started as a belief that great products come from true collaboration — not transactions. We
-                  stay small by choice, work with founders who value craft, and build things we're proud to put our name
-                  on.
+                  CoBuilt began with a belief that great brands come from partnership, not transactions. We stay
+                  intentionally small so we can work deeply, combining creativity, precision, and accountability to help
+                  founders build work worth standing behind.
                 </p>
               </div>
 
               <div className="grid sm:grid-cols-2 gap-6 pt-8">
                 {[
-                  { value: "Boutique", label: "By Design", delay: "delay-200" },
-                  { value: "Hands-On", label: "Every Project", delay: "delay-300" },
-                  { value: "Long-Term", label: "Partnerships", delay: "delay-400" },
-                  { value: "Quality", label: "Over Quantity", delay: "" },
+                  {
+                    value: "Boutique",
+                    label: "By Design",
+                    description: "Purposefully small for expert attention",
+                    delay: "delay-200",
+                  },
+                  {
+                    value: "Hands-On",
+                    label: "By Nature",
+                    description: "Work directly with strategists and builders",
+                    delay: "delay-300",
+                  },
+                  {
+                    value: "Built for",
+                    label: "Longevity",
+                    description: "Partnerships, not projects",
+                    delay: "delay-400",
+                  },
+                  {
+                    value: "Craft",
+                    label: "Over Scale",
+                    description: "Exceptional work, not endless output",
+                    delay: "",
+                  },
                 ].map((stat, i) => (
                   <div
                     key={i}
                     className={`space-y-3 p-6 border-l-2 border-primary bg-muted/30 hover:bg-muted/50 transition-all duration-300 hover-lift group ${isVisible ? `animate-scale-in ${stat.delay}` : "opacity-0"}`}
                   >
-                    <div className="text-3xl font-bold text-primary group-hover:scale-110 transition-transform inline-block">
+                    <div className="text-2xl font-bold text-primary group-hover:scale-110 transition-transform inline-block">
                       {stat.value}
                     </div>
-                    <div className="text-sm text-muted-foreground">{stat.label}</div>
+                    <div className="text-base font-medium text-foreground">{stat.label}</div>
+                    <div className="text-sm text-muted-foreground">{stat.description}</div>
                   </div>
                 ))}
               </div>
@@ -82,10 +103,10 @@ export function About() {
                 <h3 className="text-2xl font-bold">How We Work</h3>
                 <ul className="space-y-3">
                   {[
-                    "We start with strategy, not wireframes",
-                    "You work directly with the people building your product",
-                    "We stay involved beyond launch — your success is ours",
-                    "Honest feedback, even when it's uncomfortable",
+                    "Strategy leads everything—before pixels, before posts",
+                    "You work with the people actually building your brand",
+                    "We stay through launch and beyond. Success is measured in longevity",
+                    "Expect honesty, not flattery. Real partnerships require both",
                   ].map((item, i) => (
                     <li
                       key={i}

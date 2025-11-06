@@ -79,7 +79,7 @@ export function Work() {
               Real Projects, <span className="gradient-text">Real Results</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              From concept to launch, {"here's"} how {"we've"} helped founders build and grow
+              Every project starts as a partnership. {"Here's"} what the founders {"we've"} built with have to say.
             </p>
           </div>
 

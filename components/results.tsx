@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from "react"
 
 const metrics = [
-  { value: "50+", label: "Projects Launched", description: "Across web, mobile, and content" },
-  { value: "$10M+", label: "Revenue Generated", description: "For our partner companies" },
-  { value: "200K+", label: "Users Reached", description: "Through products we've built" },
+  { value: "50+", label: "Projects Launched", description: "Across web, mobile, and creative campaigns" },
+  { value: "$10M+", label: "Revenue Generated", description: "For our partner companies and growing" },
+  { value: "200K+", label: "Users Reached", description: "Through products and campaigns we've built" },
   { value: "98%", label: "Client Satisfaction", description: "Would recommend us to others" },
 ]
 
@@ -36,11 +36,15 @@ export function Results() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <div className="inline-block px-3 py-1 border border-primary/30 bg-background rounded-sm">
-              <span className="text-xs font-medium text-primary tracking-wider">BY THE NUMBERS</span>
+              <span className="text-xs font-medium text-primary tracking-wider">METRICS</span>
             </div>
             <h2 className="text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]">
               Real Impact, <span className="gradient-text">Measured Results</span>
             </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
+              Tangible outcomes from years of founder partnerships. Measurable proof that passion and precision perform
+              best together.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

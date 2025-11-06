@@ -90,16 +90,22 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4 animate-fade-up">
             <div className="inline-block px-4 py-1.5 border border-primary/30 bg-primary/5 rounded-sm mb-4 animate-pulse-subtle">
-              <span className="text-sm font-medium text-primary tracking-wide">PRECISION × CRAFT</span>
+              <span className="text-sm font-medium text-primary tracking-wide">PASSION × PERFORMANCE</span>
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance leading-[1.1]">
-              Your Vision. <span className="gradient-text">Our Execution.</span>
+              Passion-Built. <span className="gradient-text">Performance-Proven.</span>
             </h1>
           </div>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up delay-100 font-serif">
-            We partner with ambitious founders to build digital products, craft compelling content, and drive measurable
-            growth — without the overhead of hiring full-time.
+            We act as your remote marketing department, combining strategy, content, and performance to build brands
+            that last.
+          </p>
+
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-up delay-150 font-serif">
+            CoBuilt was built on one belief: when passion meets structure, great things happen. We partner with founders
+            who care deeply about what they do, bringing them the systems, creative firepower, and discipline to turn
+            that passion into measurable growth.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 animate-fade-up delay-200">
@@ -108,7 +114,7 @@ export function Hero() {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 h-12 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              <a href="#contact">Book a Strategy Call</a>
+              <a href="#contact">Build Your Growth Engine</a>
             </Button>
             <Button
               asChild

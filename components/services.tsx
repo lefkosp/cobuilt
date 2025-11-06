@@ -5,73 +5,32 @@ import { Button } from "@/components/ui/button"
 
 const services = [
   {
-    category: "Digital Products",
-    items: [
-      {
-        title: "Web Applications",
-        description: "Custom web apps that scale with your business",
-        outcome: "Launch faster, scale smarter",
-        icon: "M3 6h18M3 12h18M3 18h18",
-      },
-      {
-        title: "Landing Pages",
-        description: "High-converting pages that turn visitors into customers",
-        outcome: "2-3x higher conversion rates",
-        icon: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
-      },
-      {
-        title: "E-Commerce",
-        description: "Online stores optimized for revenue and retention",
-        outcome: "Sell more, manage less",
-        icon: "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z",
-      },
-    ],
+    category: "Strategy OS",
+    description:
+      "The foundation for scalable growth. We design the roadmap for your brand, positioning, messaging, and measurable goals that give every creative move a clear direction. Strategy first. Always.",
+    deliverables: ["Positioning", "Messaging", "Campaign Planning", "Creative Direction"],
+    icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2",
   },
   {
-    category: "Brand & Content",
-    items: [
-      {
-        title: "Social Media",
-        description: "Strategic content that builds engaged communities",
-        outcome: "Grow your audience organically",
-        icon: "M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z",
-      },
-      {
-        title: "Content Creation",
-        description: "Compelling stories that resonate with your audience",
-        outcome: "Stand out in crowded markets",
-        icon: "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z",
-      },
-      {
-        title: "Video Editing",
-        description: "Professional clips that capture attention and drive action",
-        outcome: "Higher engagement, more shares",
-        icon: "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z",
-      },
-    ],
+    category: "Content Engine",
+    description:
+      "Storytelling that scales. From creative direction to full-service production, we craft content that moves—visually, emotionally, and strategically. Every asset serves a purpose and every campaign builds momentum.",
+    deliverables: ["Social Media", "Content Creation", "Video Editing"],
+    icon: "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z",
   },
   {
-    category: "Growth & Ads",
-    items: [
-      {
-        title: "Paid Advertising",
-        description: "Data-driven campaigns that maximize ROI",
-        outcome: "Lower CAC, higher LTV",
-        icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6",
-      },
-      {
-        title: "Social Management",
-        description: "Full-service community engagement and growth",
-        outcome: "Build loyal communities",
-        icon: "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z",
-      },
-      {
-        title: "Growth Strategy",
-        description: "Roadmaps for sustainable, profitable scaling",
-        outcome: "Predictable growth systems",
-        icon: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-      },
-    ],
+    category: "Performance Hub",
+    description:
+      "Where creativity meets conversion. We turn content into measurable growth through ads, SEO, and analytics. No vanity metrics—only performance you can track, test, and scale.",
+    deliverables: ["Paid Advertising", "SEO", "Growth Strategy"],
+    icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6",
+  },
+  {
+    category: "WebOps",
+    description:
+      "Design, development, and maintenance built for growth. From landing pages to full-scale builds, we design websites that perform. Speed, SEO, and conversion at the core—your online presence built to scale.",
+    deliverables: ["Web Applications", "Landing Pages", "E-Commerce"],
+    icon: "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
   },
 ]
 
@@ -107,67 +66,63 @@ export function Services() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20 space-y-4">
             <div className="inline-block px-3 py-1 border border-primary/30 bg-primary/5 rounded-sm">
-              <span className="text-xs font-medium text-primary tracking-wider">WHAT WE BUILD</span>
+              <span className="text-xs font-medium text-primary tracking-wider">SERVICES</span>
             </div>
             <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.1]">
-              Everything You Need to <span className="gradient-text">Grow Online</span>
+              Systems That Build, <span className="gradient-text">Scale, and Grow</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              From digital products to brand presence, we handle the complete stack so you can focus on your business.
+              We build structured systems that connect creativity with performance—everything a modern founder needs to
+              turn vision into measurable results.
             </p>
           </div>
 
-          <div className="space-y-16">
-            {services.map((category, categoryIndex) => (
+          <div className="grid md:grid-cols-2 gap-8">
+            {services.map((service, index) => (
               <div
-                key={categoryIndex}
+                key={index}
                 ref={(el) => {
-                  categoryRefs.current[categoryIndex] = el
+                  categoryRefs.current[index] = el
                 }}
-                className={`space-y-6 ${visibleCategories.includes(categoryIndex) ? "animate-fade-up" : "opacity-0"}`}
+                className={`group relative p-8 bg-card border-2 border-border hover:border-primary/50 transition-all duration-500 hover-lift hover:shadow-xl ${visibleCategories.includes(index) ? "animate-scale-in" : "opacity-0"}`}
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="flex items-center gap-4">
-                  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-                  <h3 className="text-2xl font-bold text-primary tracking-tight">{category.category}</h3>
-                  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-                </div>
+                <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-primary/30 group-hover:border-primary transition-all duration-300 group-hover:scale-125" />
+                <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-primary/30 group-hover:border-primary transition-all duration-300 group-hover:scale-125" />
 
-                <div className="grid md:grid-cols-3 gap-6">
-                  {category.items.map((service, serviceIndex) => (
-                    <div
-                      key={serviceIndex}
-                      className={`group relative p-6 bg-card border border-border hover:border-primary/50 transition-all duration-300 hover-lift hover:shadow-lg ${visibleCategories.includes(categoryIndex) ? `animate-scale-in delay-${(serviceIndex + 1) * 100}` : "opacity-0"}`}
-                    >
-                      <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-primary/30 group-hover:border-primary transition-all duration-300 group-hover:scale-125" />
-                      <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-primary/30 group-hover:border-primary transition-all duration-300 group-hover:scale-125" />
-
-                      <div className="mb-4 w-12 h-12 flex items-center justify-center border border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors">
-                        <svg
-                          className="w-6 h-6 text-primary"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" d={service.icon} />
-                        </svg>
-                      </div>
-
-                      <h4 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                        {service.title}
-                      </h4>
-                      <p className="text-sm text-muted-foreground leading-relaxed mb-3">{service.description}</p>
-
-                      <div className="flex items-center gap-2 text-xs font-medium text-primary">
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>{service.outcome}</span>
-                      </div>
-
-                      <div className="absolute bottom-2 right-2 w-8 h-px bg-primary/20 group-hover:w-16 transition-all duration-500" />
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 flex items-center justify-center border border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors flex-shrink-0">
+                      <svg
+                        className="w-6 h-6 text-primary"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d={service.icon} />
+                      </svg>
                     </div>
-                  ))}
+                    <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
+                      {service.category}
+                    </h3>
+                  </div>
+
+                  <p className="text-base text-muted-foreground leading-relaxed font-serif">{service.description}</p>
+
+                  <div className="pt-4 border-t border-border">
+                    <div className="text-xs text-muted-foreground uppercase tracking-wider mb-3">Deliverables</div>
+                    <div className="flex flex-wrap gap-2">
+                      {service.deliverables.map((deliverable, i) => (
+                        <div
+                          key={i}
+                          className="px-3 py-1.5 bg-muted border border-border text-xs font-medium hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
+                        >
+                          {deliverable}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}

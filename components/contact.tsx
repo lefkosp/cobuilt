@@ -50,11 +50,11 @@ export function Contact() {
               <span className="text-xs font-medium text-primary tracking-wider">GET STARTED</span>
             </div>
             <h2 className="text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]">
-              Ready to Build <span className="gradient-text">Something Great?</span>
+              Ready to Build <span className="gradient-text">Something Great Together?</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              Book a free 30-minute strategy call. {"We'll"} discuss your vision, challenges, and how we can help you
-              execute.
+              Let's explore your vision, uncover opportunities, and map out the clearest path forward. Book a free
+              30-minute strategy call. No pressure, just clarity.
             </p>
             <div className="flex items-center justify-center gap-6 pt-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
@@ -65,7 +65,7 @@ export function Contact() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span>Free consultation</span>
+                <span>Free 30-minute call</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -75,7 +75,7 @@ export function Contact() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span>No commitment required</span>
+                <span>No pressure, just clarity</span>
               </div>
             </div>
           </div>
@@ -173,8 +173,8 @@ export function Contact() {
             className={`mt-16 grid md:grid-cols-3 gap-8 text-center ${isVisible ? "animate-fade-up delay-200" : "opacity-0"}`}
           >
             {[
-              { label: "Email", value: "hello@cobuilt.co", href: "mailto:hello@cobuilt.co" },
-              { label: "Based In", value: "San Francisco, CA", href: null },
+              { label: "Email", value: "hello@cobuilt.co.uk", href: "mailto:hello@cobuilt.co.uk" },
+              { label: "Based In", value: "United Kingdom", href: null },
               { label: "Response Time", value: "< 24 hours", href: null },
             ].map((item, i) => (
               <div key={i} className="space-y-2 group">
@@ -207,10 +207,13 @@ export function Contact() {
               <span className="font-bold text-xl">CoBuilt</span>
             </div>
 
-            <div className="text-sm text-muted-foreground">© 2025 CoBuilt. Built with precision.</div>
+            <div className="text-sm text-muted-foreground text-center">
+              <div>© 2025 CoBuilt. Passion-Built. Performance-Proven.</div>
+              <div className="text-xs mt-1">Built remotely. Connected globally.</div>
+            </div>
 
             <div className="flex items-center gap-6">
-              {["LinkedIn", "Twitter", "GitHub"].map((social) => (
+              {["LinkedIn", "Twitter", "Instagram"].map((social) => (
                 <a key={social} href="#" className="text-sm hover:text-primary transition-colors link-underline">
                   {social}
                 </a>

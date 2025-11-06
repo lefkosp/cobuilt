@@ -36,23 +36,22 @@ export function Philosophy() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className={`space-y-6 ${isVisible ? "animate-slide-in-left" : "opacity-0"}`}>
               <div className="inline-block px-3 py-1 border border-primary/30 bg-background rounded-sm">
-                <span className="text-xs font-medium text-primary tracking-wider">OUR PHILOSOPHY</span>
+                <span className="text-xs font-medium text-primary tracking-wider">PHILOSOPHY</span>
               </div>
               <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.1]">
-                Your Success Is <span className="gradient-text">Our Success</span>
+                Built on Partnership. <span className="gradient-text">Driven by Passion.</span>
               </h2>
             </div>
 
             <div className={`space-y-6 ${isVisible ? "animate-slide-in-right delay-100" : "opacity-0"}`}>
               <p className="text-lg leading-relaxed text-muted-foreground font-serif">
-                We only partner with founders who are serious about execution. When you work with CoBuilt, you get a
-                team that treats your project like our own — because we measure our success by yours.
+                We only work with founders who care as deeply about their vision as we do about bringing it to life.
+                Every project is treated like our own—because when your brand wins, we win too.
               </p>
               <div className="pt-4 border-l-2 border-primary pl-6 bg-primary/5 py-4 hover:bg-primary/10 transition-colors">
                 <p className="text-base leading-relaxed text-foreground font-medium italic">
-                  {
-                    "No cookie-cutter solutions. No endless revisions. Just strategic thinking, quality execution, and a partnership built to last."
-                  }
+                  No templates. No shortcuts. Just genuine collaboration, strategic clarity, and a partnership designed
+                  to build lasting success.
                 </p>
               </div>
             </div>
@@ -60,9 +59,24 @@ export function Philosophy() {
 
           <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { label: "You Get", value: "Strategic Clarity", description: "Not just execution", delay: "delay-200" },
-              { label: "You Get", value: "Hands-On Partners", description: "Not distant vendors", delay: "delay-300" },
-              { label: "You Get", value: "Long-Term Support", description: "Not one-off projects", delay: "delay-400" },
+              {
+                label: "Strategic Clarity",
+                value: "Structure before execution",
+                description: "We bring systems that make your creative process measurable and scalable",
+                delay: "delay-200",
+              },
+              {
+                label: "Hands-On Partnership",
+                value: "Your in-house team",
+                description: "Work directly with a team that feels like your department, not an agency on retainer",
+                delay: "delay-300",
+              },
+              {
+                label: "Long-Term Growth",
+                value: "Built for sustainability",
+                description: "We build for lasting success, not one-off wins. Every launch starts a bigger story",
+                delay: "delay-400",
+              },
             ].map((item, i) => (
               <div
                 key={i}
@@ -73,11 +87,11 @@ export function Philosophy() {
                 <div className="absolute bottom-2 right-2 w-2 h-2 border border-primary/10" />
 
                 <div className="space-y-2">
-                  <div className="text-xs text-muted-foreground tracking-wider uppercase">{item.label}</div>
-                  <div className="text-2xl font-bold text-primary group-hover:scale-110 transition-transform inline-block">
+                  <div className="text-xs text-primary tracking-wider uppercase font-medium">{item.label}</div>
+                  <div className="text-xl font-bold text-foreground group-hover:scale-105 transition-transform inline-block">
                     {item.value}
                   </div>
-                  <div className="text-sm text-muted-foreground">{item.description}</div>
+                  <div className="text-sm text-muted-foreground leading-relaxed">{item.description}</div>
                 </div>
 
                 <div className="absolute bottom-2 left-2 w-8 h-px bg-primary/20 group-hover:w-16 transition-all duration-500" />
